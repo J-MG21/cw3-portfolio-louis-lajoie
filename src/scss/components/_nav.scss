@@ -1,0 +1,15 @@
+.header-principal{
+  display: flex;
+  flex-direction: column;
+  padding: 0, var(--padding-thin);
+
+  div.logo{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  nav ul{
+    display: flex;
+    justify-content: space-around;
+  }
+}
