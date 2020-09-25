@@ -1,0 +1,42 @@
+.description{
+  padding: var(--padding-thin);
+  margin: var(--margin-thin) 0;
+  text-align: center;
+
+
+  header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      width:15%
+    }
+  }
+  article{
+    margin: 0 0 var(--margin-large) 0;
+  }
+}
+
+@media screen and(min-width: $vw-medium){
+  .description{
+    .flex{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    article{
+      width: 45%;
+    }
+  }
+}
+
+@media screen and(min-width: $vw-large){
+  .description{
+    justify-content: space-around;
+    article{
+      width: 32%;
+      margin:0;
+    }
+  }
+}
